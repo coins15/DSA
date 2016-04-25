@@ -15,7 +15,7 @@ public class GCDIter {
 
     // Find the greatest common divisor of the two integers, n and m.
     static int gcd(int n, int m) {
-         Let n be the smaller number.
+        // Let n be the smaller number.
         if (n > m) {
 	        int tmp = m;
 	        m = n;
