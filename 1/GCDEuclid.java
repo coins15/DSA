@@ -16,8 +16,7 @@ public class GCDEuclid {
     // Find the greatest common divisor of the two integers, n and m.
     static int gcd(int n, int m) {
         int temp;
-        while(true){
-            if(n%m==0)break;
+        while(n%m!=0){
             temp=n;
             n=m;
             m=temp%m;
